@@ -19,6 +19,7 @@
     "@gsap/react": "^2.1.1",
     "@types/nodemailer": "^6.4.16",
     "accept-language": "^3.0.20",
+    "gsap": "^3.12.5",
     "i18next": "^23.15.1",
     "i18next-resources-to-backend": "^1.2.1",
     "lenis": "^1.1.13",

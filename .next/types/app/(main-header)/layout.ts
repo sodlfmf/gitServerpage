@@ -1,4 +1,4 @@
-// File: D:\yeowoon\YEOWOON\src\app\(main-header)\layout.tsx
+// File: D:\백업\YEOWOON-1015\src\app\(main-header)\layout.tsx
 import * as entry from '../../../../src/app/(main-header)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
