@@ -29,8 +29,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with: 
+          version: 9
+          run_install: false
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Insatall dependencies
+        run: pnpm install
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -52,7 +59,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          cache: 'pnpm'
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
