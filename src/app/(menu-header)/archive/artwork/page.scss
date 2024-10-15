@@ -1,0 +1,84 @@
+.artwork_container {
+  height: 90vh;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  display: grid;
+  grid-template-rows: 7rem 25rem 23rem;
+  overflow-x: hidden;
+  h1 {
+    padding-left: 1.5rem;
+    grid-row: 1 / 2;
+    font-size: 2.5rem;
+  }
+  Img {
+    cursor: pointer;
+    object-fit: cover;
+  }
+}
+
+.camp.item_container {
+  display: flex;
+  grid-row: 2 / 3;
+  gap: 10rem;
+}
+.artist.item_container {
+  display: flex;
+  grid-row: 3 / 4;
+  gap: 3rem;
+}
+
+.imgItem {
+  width: 300px;
+  height: 300px;
+
+  > img {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    letter-spacing: -0.1rem;
+    padding-top: 1rem;
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .imgItem {
+    > img {
+    }
+    p {
+      font-size: 1.5rem;
+      width: 30vw;
+    }
+  }
+}
+@media screen and (max-width: 1280px) {
+  .artwork_container {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  .imgItem {
+    > img {
+    }
+    p {
+      font-size: 1.2rem;
+      width: 30vw;
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .artwork_container {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  .imgItem {
+    > img {
+    }
+    p {
+      font-size: 1rem;
+      width: 30vw;
+    }
+  }
+}

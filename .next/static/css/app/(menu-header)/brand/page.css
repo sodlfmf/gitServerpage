@@ -1,0 +1,241 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@15.0.0-rc.0_react-dom@19.0.0-rc-f994737d14-20240522_react@19.0.0-rc-f994737d14-20240522__h33xfb6jvxbslachva5d7xtuc4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[11].use[2]!./node_modules/.pnpm/next@15.0.0-rc.0_react-dom@19.0.0-rc-f994737d14-20240522_react@19.0.0-rc-f994737d14-20240522__h33xfb6jvxbslachva5d7xtuc4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[11].use[3]!./node_modules/.pnpm/next@15.0.0-rc.0_react-dom@19.0.0-rc-f994737d14-20240522_react@19.0.0-rc-f994737d14-20240522__h33xfb6jvxbslachva5d7xtuc4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[11].use[4]!./node_modules/.pnpm/next@15.0.0-rc.0_react-dom@19.0.0-rc-f994737d14-20240522_react@19.0.0-rc-f994737d14-20240522__h33xfb6jvxbslachva5d7xtuc4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[11].use[5]!./src/app/(menu-header)/brand/page.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.brand {
+  top: 10vh;
+  width: 100%;
+  height: 90vh;
+  min-height: 600px;
+  display: flex;
+  margin: 0 auto;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.brand p {
+  width: 100%;
+}
+
+.brand_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  overflow: hidden;
+  justify-content: flex-end;
+  top: 0;
+}
+
+.brand_img {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 70%;
+  top: 0;
+}
+.brand_img > img {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  min-height: 500px;
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+.brand_img > div {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  top: 45%;
+}
+.brand_img > div img {
+  height: auto;
+}
+
+.brand_container > div {
+  text-align: center;
+}
+.brand_container a {
+  text-decoration: none;
+  color: white;
+}
+
+.brand_link {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 3rem;
+  min-width: 600px;
+  padding-bottom: 1rem;
+  height: 20%;
+  z-index: 2;
+}
+.brand_link div {
+  padding-top: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.brand_link img {
+  width: 100px;
+  height: 100px;
+}
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(119, 119, 119, 0.4666666667);
+}
+
+.layout_header___Da6F {
+  height: 15vh;
+}
+
+@media screen and (max-width: 1440px) {
+  .brand {
+    min-height: 550px;
+  }
+  .brand_img > img {
+    min-height: 400px;
+  }
+  .brand_link {
+    font-size: 2.3rem;
+    min-width: 500px;
+    padding-bottom: 0.5rem;
+  }
+  .brand_link img {
+    width: 80px;
+    height: 80px;
+  }
+  .brand_link div {
+    padding-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .brand {
+    min-height: 500px;
+  }
+  .brand_img > img {
+    min-height: 350px;
+  }
+  .brand_link {
+    font-size: 1.8rem;
+    min-width: 400px;
+    padding-bottom: 0.3rem;
+  }
+  .brand_link div {
+    padding-top: 0.3rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .brand {
+    min-height: 1000px;
+    flex-direction: column;
+  }
+  .brand_container {
+    width: 100%;
+    height: 50%;
+  }
+  .brand_img {
+    height: 70%;
+  }
+  .brand_img > img {
+    min-height: 200px;
+  }
+  .brand_img > div {
+    width: 80%;
+    top: 35%;
+  }
+  .brand_link {
+    font-size: 1.5rem;
+    min-width: 300px;
+    padding-bottom: 0.1rem;
+    height: 30%;
+  }
+  .brand_link div {
+    padding-top: 0.3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .brand {
+    align-content: flex-start;
+  }
+  .brand_container {
+    width: 100%;
+    height: 45%;
+  }
+  .brand_img {
+    top: 5%;
+  }
+  .brand_img img {
+    width: 100%;
+  }
+  .brand_img div {
+    width: 80%;
+    bottom: 17.1rem;
+  }
+  .brand_link {
+    font-size: 2rem;
+    min-width: 300px;
+    padding-bottom: 0.5rem;
+    height: auto;
+  }
+  .brand_link div {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .brand_container .brand_link {
+    font-size: 2.4rem;
+  }
+  .brand_container .brand_link img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .brand_container .brand_link {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 359px) {
+  .brand_container > div:nth-child(2) {
+    align-content: center;
+  }
+  .brand_link p {
+    font-size: 1.5rem;
+  }
+  .brand_link img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 479px) {
+  .brand_container > div:nth-child(2) {
+    align-content: center;
+  }
+  .brand_link p {
+    font-size: 1.5rem;
+  }
+  .brand_link img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .brand_container {
+    margin-bottom: 0;
+  }
+  .brand_container > div:nth-child(2) {
+    align-content: center;
+  }
+  .brand_link img {
+    width: 60px;
+    height: 60px;
+  }
+  .brand_link p {
+    font-size: 1.5rem;
+  }
+}

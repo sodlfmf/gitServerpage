@@ -1,0 +1,26 @@
+.byline{
+    position: sticky;
+    bottom: 0px;
+    width: 100vw;
+    height: 10vh;
+    text-align: end;
+    .link{
+        opacity: 0;
+        width: 100%;
+        right: 10px;
+        position: absolute;
+    }
+    a{
+        color: white;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .byline{
+        text-align: center;
+        .link{
+            right: 0px;
+        }
+    }
+    
+}

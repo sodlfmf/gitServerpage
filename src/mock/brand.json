@@ -1,0 +1,18 @@
+[
+    {
+        "id" : "1",
+        "logo" : "/img/streeLogo.png",
+        "determination" : "FIND YOUR BLUE",
+        "imgUrl" : "/img/stree.jpg",
+        "instagram" : "/#",
+        "webpage" : "/#"
+    },
+    {
+        "id" : "2",
+        "logo" : "/img/soonheeLogo.png",
+        "determination" : "MAKE A DAY UNIQUE",
+        "imgUrl" : "/img/soonhee.jpg",
+        "instagram" : "/#",
+        "webpage" : "/#"
+    }
+]

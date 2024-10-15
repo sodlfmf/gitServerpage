@@ -1,0 +1,19 @@
+.artist_imgs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+  > div {
+    img {
+      width: 60%;
+      height: 70%;
+    }
+  }
+}
+
+.artist_video {
+  width: 90%;
+  max-width: 1200px;
+  max-height: 900px;
+  height: auto;
+  object-fit: cover;
+}

@@ -1,0 +1,26 @@
+.campaign_video {
+  width: 90%;
+  max-width: 1500px;
+  max-height: 800px;
+  height: auto;
+  object-fit: cover;
+}
+
+.camp_artwork_img {
+  display: grid;
+
+  margin: 0 auto;
+  max-width: 85%;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  // grid-template-rows: repeat(2, 20rem);
+
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 90%;
+      height: 85%;
+    }
+  }
+}

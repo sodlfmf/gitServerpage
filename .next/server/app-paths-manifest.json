@@ -1,0 +1,9 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(menu-header)/contact/page": "app/(menu-header)/contact/page.js",
+  "/(menu-header)/about/page": "app/(menu-header)/about/page.js",
+  "/(main-header)/page": "app/(main-header)/page.js",
+  "/(menu-header)/archive/exhibition/page": "app/(menu-header)/archive/exhibition/page.js",
+  "/(menu-header)/brand/page": "app/(menu-header)/brand/page.js",
+  "/(menu-header)/archive/artwork/page": "app/(menu-header)/archive/artwork/page.js"
+}
